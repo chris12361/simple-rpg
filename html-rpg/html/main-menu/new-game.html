@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="../../css/style.css">
+    <title>Main Menu</title>
+    <script src="../../js/main-menu/new-save.js" defer></script>
+
+</head>
+
+<body class="menu">
+
+    <header>
+
+        <div class="logo">
+
+            Narra Tree - RPG
+
+        </div>
+
+    </header>
+
+    <div class="container">
+
+        <div class="new-game">
+            
+            <h1>Character Creation</h1>
+
+            <div class="input-container">
+
+                <label for="name">Name :</label>
+                <input type="text" id="name" placeholder="Enter Your Name...">
+
+            </div>
+
+            <div class="input-container">
+
+                <label for="class">Class :</label>
+                <select name="class" id="class">
+                    
+                    <option value="berserker">Berserker</option>
+                    <option value="knight">Knight</option>
+                    <option value="ranger">Ranger</option>
+                    <option value="paladin">Paladin</option>
+
+                </select>
+            
+            </div>
+
+            <div class="input-container">
+                
+                <button id="createCharacter" onclick="createCharacter()">Create Character</button>
+
+            </div>    
+        </div>
+
+    </div>
+
+    <footer>
+
+        <div class="logo">
+
+            Narra Tree - RPG
+
+        </div>
+
+    </footer>
+    
+</body>
+
+</html>
